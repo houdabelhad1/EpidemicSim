@@ -31,7 +31,7 @@ The project uses the SDL library to graphically display the state of each indivi
 ```bash
 git clone https://github.com/houdabelhad1/EpidemicSim.git
 cd EpidemicSim
-
+```bash
 ### 2. Compile the project
 
 Make sure your development environment (e.g., Visual Studio) is set up to include the SDL2 library.
@@ -48,6 +48,7 @@ The simulation's behavior can be adjusted via the config.ini configuration file:
 initial_infected = 1      ; Initial number of infected individuals
 infection_rate = 0.3      ; Probability of infection with each contact
 recovery_rate = 0.1       ; Probability of recovery for an infected individual
+```bash
 ### 5. Project Structure
 
 - **main.c**: Contains the main program loop and initializes the graphical elements.
